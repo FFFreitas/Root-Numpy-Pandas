@@ -16,6 +16,8 @@ if len(sys.argv) < 2:
   print " Usage: Example1.py input_file"
   sys.exit(1)
 
+### this part point to the libdelphes.so libraries which are need for this analysis
+### if you are planing to use this scrip please change this path.
 ROOT.gSystem.Load("/home/felipe/madanalysis5_1_5/tools/delphes/libDelphes")
 inputFile = sys.argv[1]
 
